@@ -1,0 +1,38 @@
+.dashboardMain {
+  display: flex;
+  gap: 40px;
+  margin-top: 16px;
+  padding: 0 40px 40px 40px;
+  min-height: 0;
+  height: 100%;
+}
+
+.leftPanel {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #081849 !important;
+  margin-bottom: 0px; 
+  text-align: left;
+}
+
+.anatomyAndStatus {
+  display: flex;
+  flex-direction: row;  
+  gap: 32px;
+  align-items: flex-start;  
+  margin-bottom: 12px; 
+}
+
+.rightPanel {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}

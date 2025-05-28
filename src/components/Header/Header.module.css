@@ -1,0 +1,164 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+.header {
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+  align-items: center;
+  padding: 32px 40px 0 40px;
+  background: transparent;
+  width: 100%;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00c6ae;
+  margin-right: 32px;
+}
+
+.dot {
+  color: #222b45;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  background: #f7fbff;
+  border-radius: 12px;
+  padding: 8px 16px;
+  box-shadow: 0 2px 8px #e6eefb;
+  min-width: 280px;    /* Increased from previous value */
+  max-width: 400px;
+  width: 320px;        /* Increased width */
+  margin-right: 16px;
+}
+
+.searchBar input {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 1rem;
+  color: #222b45;
+  width: 100%;
+  margin-left: 8px;
+}
+
+.searchIcon {
+  color: #b0b7c3;
+  font-size: 1.2rem;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.notificationBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.notification {
+  font-size: 1.5rem;
+  color:#3e089c;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #e6eefb;
+}
+
+.profileName {
+  font-size: 1rem;
+  color: #222b45;
+  font-weight: 500;
+}
+
+.iconButton {
+  background:#3e089c;
+  color: #fff;
+  border: none;
+  font-size: 1.5rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px #e6eefb;
+  transition: background 0.2s;
+}
+.iconButton:hover {
+  background: #009e8e;
+}
+
+.addBtn {
+  background: #00c6ae;
+  color: #fff;
+  border: none;
+  font-size: 1.5rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px #e6eefb;
+  transition: background 0.2s;
+}
+.addBtn:hover {
+  background: #009e8e;
+}
+
+.searchIcon {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+}
+
+.fa-search {
+  margin-right: 8px;
+}
+
+.fa-plus {
+  margin-left: 8px;
+}
+
+.dashboardMain {
+  display: flex;
+  gap: 40px;
+  margin-top: 0;           
+  padding: 0 40px 40px 40px;
+  min-height: 0;
+  height: 100%;
+  flex: 1;
+  box-sizing: border-box;
+  overflow: auto;
+  align-items: flex-start;  
+}
+
+.rightSection {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  flex: 1.2;
+}

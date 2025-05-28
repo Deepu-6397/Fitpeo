@@ -1,0 +1,36 @@
+.calendarView,
+.upcomingSchedule {
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+}
+
+.upcomingSchedule {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #7c3aed;
+  margin-bottom: 8px;
+}
+
+.daySection {
+  margin-bottom: 10px;
+}
+
+.dayLabel {
+  font-size: 0.98rem;
+   color: #3e089c;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.cardsRow {
+  display: flex;
+  gap: 12px;
+}
